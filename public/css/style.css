@@ -1,0 +1,27 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+.table-data {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
